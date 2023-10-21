@@ -31,7 +31,7 @@ function Register() {
                         <p>Phone Number</p>
                         <div className={style.inputWrpapper}>
                             <i><BsTelephone /></i>
-                            <input type='tel' placeholder='+1230000000000' required />
+                            <input type='tel' maxlength="14" minlength="9" placeholder='+1230000000000' required />
                         </div>
                     </div>
                     <div>
@@ -45,14 +45,14 @@ function Register() {
                         <p>Password</p>
                         <div className={style.inputWrpapper}>
                             <i><GoUnlock /></i>
-                            <input type='password'  required />
+                            <input type='password' minlength="8" required />
                         </div>
                     </div>
                     <div>
                         <p>Confirm Password</p>
                         <div className={style.inputWrpapper}>
                             <i><GoUnlock /></i>
-                            <input type='password' required />
+                            <input type='password' minlength="8" required />
                         </div>
                     </div>
                 </div>

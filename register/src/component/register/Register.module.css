@@ -12,7 +12,7 @@
 }
 .regBox{
     width: 400px;
-    height: 650px;
+    height: 700px;
     background-color: white;
     border-radius: 12px;
     margin-bottom: 40px;
@@ -69,6 +69,16 @@
     font-size: 18px;
     color: white;
 }
+.btn:hover{
+    cursor: pointer;
+    background: #005381;
+    color: white;
+    border: 1px solid #005381;
+}
+.btn:active{   
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
 .signIn{
     display: flex;
     align-items: center;
@@ -80,4 +90,44 @@
 .signIn p{
     font-size: 16px;
     margin-right: 5px;
+}
+
+/* special css */
+.instructions{
+    font-size: 12px;
+    border-radius: 0.5rem;
+    background: #005381;
+    color: #fff;
+    width: 300px;
+    padding: 10px 5px;
+    position: relative;
+    margin: 5px 0 0 0;
+}
+.instructions > i {
+    margin-right: 0.25rem;
+    margin-top: 5px;
+}
+.offscreen {
+    position: absolute;
+    font-size: 10px;
+    left: -9999px;
+}
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
 }

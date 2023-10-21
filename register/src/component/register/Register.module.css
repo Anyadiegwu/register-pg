@@ -1,0 +1,83 @@
+.registerBody{
+    width: 100%;
+    height: 100%;
+    background-color: #f5efef8c;
+}
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.regBox{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+.regBox .boxPos p {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.boxPos{
+    padding-left: 30px;
+}
+.inputWrpapper{
+    border: 1px solid rgb(4, 46, 130);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 320px;
+    height: 35px;
+}
+.inputWrpapper input{
+    width: 275px;
+    height: 28px;
+    border: none;
+    outline: none;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    width: 100%;
+}
+.terms div{
+    width: 320px;
+    color: gray;
+}
+.terms div a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.btnWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    width: 320px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    background-color: blue;
+    font-size: 18px;
+    color: white;
+}
+.signIn{
+    display: flex;
+    align-items: center;
+}
+.signIn a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.signIn p{
+    font-size: 16px;
+    margin-right: 5px;
+}
